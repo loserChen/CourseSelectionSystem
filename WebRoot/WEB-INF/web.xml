@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addStudent</servlet-name>
+    <servlet-class>addStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LookStudentServlet</servlet-name>
+    <servlet-class>studentManage.LookStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>servlet1</servlet-name>
+    <servlet-class>studentManage.servlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>servlet2</servlet-name>
+    <servlet-class>com.demo.servlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>studentManage.test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>servlet4</servlet-name>
+    <servlet-class>studentManage.servlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LookDeleteStudentServlet</servlet-name>
+    <servlet-class>studentManage.LookDeleteStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addStudentServlet</servlet-name>
+    <servlet-class>studentManage.addStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <servlet-class>studentManage.DeleteStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTeacherServlet</servlet-name>
+    <servlet-class>teacherManage.AddTeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteTeacherServlet</servlet-name>
+    <servlet-class>teacherManage.DeleteTeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LookDeleteTeacherServlet</servlet-name>
+    <servlet-class>teacherManage.LookDeleteTeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LookTeacherServlet</servlet-name>
+    <servlet-class>teacherManage.LookTeacherServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>addStudent</servlet-name>
+    <url-pattern>/addStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LookStudentServlet</servlet-name>
+    <url-pattern>/LookStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servlet1</servlet-name>
+    <url-pattern>/c</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servlet2</servlet-name>
+    <url-pattern>/3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/servlet/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servlet4</servlet-name>
+    <url-pattern>/q</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LookDeleteStudentServlet</servlet-name>
+    <url-pattern>/LookDeleteStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addStudentServlet</servlet-name>
+    <url-pattern>/addStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <url-pattern>/DeleteStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTeacherServlet</servlet-name>
+    <url-pattern>/AddTeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTeacherServlet</servlet-name>
+    <url-pattern>/DeleteTeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LookDeleteTeacherServlet</servlet-name>
+    <url-pattern>/LookDeleteTeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LookTeacherServlet</servlet-name>
+    <url-pattern>/LookTeacherServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

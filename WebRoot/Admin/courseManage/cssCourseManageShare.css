@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+body{
+	background: url("image/background.jpg");
+	margin: 0 ;
+   	padding: 0 ;
+    repeat: no-repeat ;
+   	background-attachment:fixed ;
+    background-size: cover ;
+}
+
+.glass{
+	
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	
+	margin: 50px  auto ;
+	height: 600px;
+	width: 1000px;
+}

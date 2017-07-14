@@ -1,0 +1,32 @@
+<style type="text/css">
+    #top1{
+    background:white;color: #6495ED}
+    #top2{
+    background:#c9d3e9;color: #6495ED}
+    /* Border styles */
+    
+	#table-3 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(211, 202, 221);
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgb(211, 202, 221);
+	}
+
+	/* Padding and font style */
+	#table-3 td, #table-3 th {
+	padding: 5px 10px;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #6495ED;
+	}
+
+	/* Alternating background colors */
+	#table-3 tr:nth-child(even) {
+	background: #F1F3F9
+	}
+	#table-3 tr:nth-child(odd) {
+	background: #FFF
+	}
+    </style>
